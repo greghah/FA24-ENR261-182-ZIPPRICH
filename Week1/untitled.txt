@@ -1,0 +1,13 @@
+
+The Command window is a place where you can run specific lines of code for 
+immediate results, here is where you can do basic math calculations like 
+1+2=3, you can also set variables here like Twenty=20 and then they will 
+save in your workspace. The workspace is a unique window, here all your 
+variables that you use in your command window are saved and ready to be 
+reused, one thing I noticed is that your answer to your most recent 
+calculation is always saves as ans, so if you want to use the answer to 
+your last calculation you can just type ans. The editor window is where 
+we will run and write script, this will be saved each time you edit code
+ or save a MATLAB file. Finally the current folder window shows you what 
+folder you are currently editing and also is a place where you can navigate
+ multiple open files you may be working on.
