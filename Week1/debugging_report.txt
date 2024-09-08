@@ -1,0 +1,12 @@
+    When I tried to run the original buggy script I ran into errors 
+around the use of the display function and then also naming the variables.
+As far as naming the variables goes the original creator forgot to add a 
+semi colon, a semi colon prevents the variables from being shown in the 
+command window when you don't want them to be. To fix this add a semi colon
+directly after your variable naming lines of code. The next issue I found
+was incorrect use of the disp function, here I switched the disp function 
+to an fprintf function and added a .3f\n float to stop showing the area 
+after 3 decimals, now the code works as intended!
+    I learned alot about matlab from debugging this set of code, mainly
+I got more familiar with the fprintf function and also learned what 
+semicolons do!
