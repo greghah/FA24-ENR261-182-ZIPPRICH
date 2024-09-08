@@ -1,0 +1,19 @@
+The fprintf function is a functioned used to display information, this 
+function is different from disp because you can specifically format your 
+displayed information my using different formating specifiers. An example
+of using format specifiers is found in this code
+
+
+The Plot function is used to create graphs out of different values and 
+matrices, you can create graphs in 1, 2 or even 3 dimensions. You can also
+add x and y labels as well as a ledgend to make the graph more visually 
+appealing!
+
+
+Finnally the disp function is a simple display function, like fprintf
+disp allows you to print out words or variables but with limited formating 
+options. This function is useful for displaying values or messages in 
+scenarios where you arent so worried about formating.
+
+
+
