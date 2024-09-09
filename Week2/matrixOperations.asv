@@ -1,0 +1,13 @@
+A = [1,2,3,4,5,6,7,8,9];
+
+B = [1,2,3,4,5,6,7,8,9];
+A     %display each matrix
+B
+C=A+B;%this sets variable C to the addition of A and B
+D=A-B;%this sets D to the A minus B
+C %this displays both C and D
+D 
+E=A.*B;%setting a variable E to the product of A and B
+E
+F=A*17.2;%setting F 
+F

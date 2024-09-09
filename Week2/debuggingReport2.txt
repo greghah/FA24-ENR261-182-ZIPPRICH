@@ -1,0 +1,11 @@
+When debugging and fixing the buggy script 2 I found multiple errors that
+prevented the code from running. The first error I found was that the 
+prices and the quantities vectors didn't have the same number of elements.
+Matlab won't automatically assume the missing element is a zero so the code
+did not run, to fix this I added a zero as the fourth quantity. The next
+error I ran into when debugging the code was that in the original buggy 
+script the creator didn't use the element wise multiplication .* in the
+code, matlab doesn't recognise * as the multiplication opperator and
+therefor won't run the code. Finnally I noticed that the back slash in the 
+fprintf float was a forward slash, I simply just changed it and ran the 
+code.

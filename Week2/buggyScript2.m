@@ -1,0 +1,10 @@
+%Task: Calcualte the cost of items in a grocery store
+
+itemPrices = [2.5, 3.0, 4.5, 5.0]; %prices of 4 items
+itemQuantities = [2,1,3]; %quantities of each item bought
+
+%Calculate the total cost for each item
+totalCost = itemPrices * itemQuantities
+
+%Display the overall cost (using sum to get the overall cost)
+fprintf('the total cost of the grocery items is: %.2f/n', sum(totalCost))
