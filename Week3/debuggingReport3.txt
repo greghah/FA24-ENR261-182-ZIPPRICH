@@ -1,0 +1,10 @@
+The first thing I noticed when examining the buggy script 3 was that the 
+if else and elif statements were on the same line as the code it was 
+examining, to fix this I deleted and rewrote the if elseif and else 
+statements above the line of code it previously was on, adding indents when
+ needed of course. There also was
+missing a end comand after the last else statement line. The next thing I 
+added was a i=i+2 counter inside of the while loop. This modification 
+ensures that the i variable is changed each time the loop is ran. 
+After these changes I tested the code and it ran as intended. I also
+added a few semicolons to prevent leaking my code.

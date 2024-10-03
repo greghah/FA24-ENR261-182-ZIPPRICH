@@ -1,3 +1,6 @@
+%Student: Gregory Zipprich
+%Assisted by: Nobody
+
 Acceleration=9.81; %m/s^2
 t=0;
 h_initial = input("what is the initial height of the ball in meters?:");
