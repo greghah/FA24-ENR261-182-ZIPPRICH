@@ -1,0 +1,15 @@
+% Student: Gregory Zipprich
+% Assisted by: Nobody
+
+function qty = getStockQty(filename,upc)
+    %initialize variable assuming that it is not found
+    qty=-1
+    %check if the file exists, if not kill yourself.
+    if exist(filename,"file") == 2
+        %open file in read mode
+        fileID = fopen(filename,"r")
+
+        %read data using textscan
+        data=textscan(fileID, '%s,%s,%d',Delimiter,',')
+
+
