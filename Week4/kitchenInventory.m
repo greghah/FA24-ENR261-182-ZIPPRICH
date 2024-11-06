@@ -1,4 +1,3 @@
-% kitchenInventory.m
 disp('Welcome to the Kitchen Inventory Manager!');
 while true
     disp('----------------------------------');
@@ -16,7 +15,7 @@ while true
             upc = input('Enter the UPC: ', 's');
             ingredient = input('Enter the ingredient name: ', 's');
             qty = input('Enter the quantity: ');
-            addItemsToStock('inventory.csv', upc, ingredient, qty);
+            addItemToStock('inventory.csv', upc, ingredient, qty); % Corrected function name
 
         case '2'
             % Print the inventory list
