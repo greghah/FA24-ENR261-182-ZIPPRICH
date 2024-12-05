@@ -1,0 +1,19 @@
+    The line following simulation with PID control simulates a standard line
+following program commonly found in real world applications. This app
+takes user inputs like PID gains kp, ki, kd along with a setpoint and 
+random seed responciple for creating random data generation but 
+consistant data with each seed. The app has 3 axis for plotting. 
+they plot the robots error or deviation from the desired setpoint, the
+left and right motor speeds and also the position over time. Similar to the
+previous part of the assignment I created separate lines of data to store
+previous runs that way we can analize them better. 
+
+    From my simulation analisis I found that kp dictates how aggresivly the
+robot will turn when over or undershooting. ki gets rid of persistant 
+errors and kd stabilized everything. For example, having a high kp value
+caused the robot to oscillate and depending on what it was compared to the 
+other constants the oscillations might get worse and worse out to infinite.
+low kp slowed the responce. When I adjusted the seed I would basically just
+get a different senario for my PID to try and work with. This application
+showed the importance of a PID and good constant values for a real life
+application.

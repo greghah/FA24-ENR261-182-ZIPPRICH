@@ -1,0 +1,19 @@
+    The PID control for a Spring-Dampening System was developed using MATLABS 
+app designer. The goal of this app is to simulate and display the behavior
+of a spring dampening system and the PID controlers effects on its output.
+The app calls for user inputs such as mass, a dampening coefficient, spring
+constant, and the PID gain constants kp, ki, kd as well as a setpoint or 
+goal location that the PID is aiming to level out at. We added a axis to 
+display the simulation and also made the axis display the current and 2 
+prior runs which made comparing results with different PID gain constants.
+
+    After experimenting with my gain constants kp, ki and kd I found that
+the kp value influences the speed of the systems responce. In other words
+the higher the kp value the greater it will correct itself. The ki value 
+takes care of cases where we have a steady state error. Basically if our
+program levels out close to the set point but not right at it. 
+Finnally the kd constant reduces overshooting or occiliations. 
+Mathmatically the kd constant is multiplied to the rate of change in error
+over time and when the error is changing alot then kd will effect the 
+function. If it isn't then kd goes to zero.
+
