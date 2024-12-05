@@ -1,0 +1,23 @@
+    In this part of the assignment I picked a Temperature control system, 
+the reason I picked this is because I had experience coding a temperature 
+control system in python from a previous class I took and I thought that a 
+PID algorithm would work very well with this. I looked over my professors 
+examples and also thought it was a good idea to enclude a disturbance 
+factor into this to replicate real world external heatloss and heatgain
+factors making the simulation more realistic. This app provides a graphical 
+interface for displaying results and input boxes for users to pick kP, kD 
+kI, setpoint, disturbance and initial temperature. This app like previous 
+ones compares the current runs and previous runs on the graphical displays.
+I also added along with the runsimulation button a reset simulation button. 
+This adds functionality to the program and was also very easy to do.
+All the button did was run a function that sets all input values to zero 
+and clears both graphs. 
+
+    Lastly I played around with the kP, kI, and kD constants to get a feel
+for how they change the results and also to see if they acted differently
+for my application compared to my professors applications. I noticed that
+kP effected the responce time but ofter with a slightly too high value 
+caused overshooting problems, kI still helped eliminate steady error and
+kD stabilised the system at the end. all of these worked together to make 
+my temperature control system work suprisingly well.
+
